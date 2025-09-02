@@ -1,4 +1,5 @@
 # Context-Aware Document QnA Assistant
+Live Link - https://document-assistent.streamlit.app/
 
 A lightweight Retrieval-Augmented question-answering app for PDFs.  
 It extracts text from an uploaded PDF, finds the most relevant passages using semantic embeddings, and asks Google Gemini to answer with a short **Answer** + **Justification**.
