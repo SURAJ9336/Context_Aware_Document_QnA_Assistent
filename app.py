@@ -11,7 +11,7 @@ from database.db import init_db
 init_db()
 
 
-st.title("📄 PDF Question Answering System")
+st.title(" PDF Question Answering System")
 
 pdf_file = st.file_uploader("Upload a PDF", type=["pdf"])
 query = st.text_input("Ask a question about the PDF")
